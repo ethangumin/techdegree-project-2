@@ -1,0 +1,190 @@
+html {
+  background-color: white;
+}
+
+header {
+  padding: 1rem;
+  margin: -1.5rem;
+  text-align: center;
+  background-color: WhiteSmoke;
+}
+
+header img{
+  width: 70%;
+  height: auto;
+}
+
+body {
+  margin: 1rem;
+  font-family: 'Poppins', sans-serif;
+  color: #454959;
+  font-weight: 300;
+}
+
+a {
+  color: #454959;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 5%;
+  padding: 0;
+}
+
+li {
+  border: 1px solid WhiteSmoke;
+  background-color: White;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+img {
+  width: 95%;
+}
+
+.portfolio {
+  padding-bottom: 1.45rem;
+  padding-top: 1.45rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  background-color: white;
+}
+
+#contact-footer {
+  padding: 1.25rem;
+  margin: 0 -1.25rem -1.5rem;
+  text-align: center;
+  background-color: WhiteSmoke;
+}
+
+footer ul {
+  display: flex;
+  border-top: 1px solid #C0C0C0;
+}
+
+footer ul li {
+  background-color: WhiteSmoke;
+}
+
+#nav-footer, #contact-heading, #nav-header, #portfolio-title {
+  text-transform: uppercase;
+}
+
+#home-nav-bot, #portfolio-nav-bot, #contact-nav-bot {
+  display: none;
+}
+
+/* Media Queries ------------------- */
+@media screen and (min-width: 768px) {
+  li {
+    background-color: WhiteSmoke;
+    display: inline-block;
+  }
+
+  header {
+    padding-bottom: 115px;
+  }
+
+  header img {
+    float: right;
+    width: 40%;
+    height: auto;
+    padding: 0 1.6rem;
+  }
+
+  #intro-p {
+    text-align: left;
+    padding-left: 1rem;
+  }
+
+  .portfolio-piece {
+    display: inline-block;
+    width: 45%;
+  }
+
+  .description {
+    padding: 0 2rem 2rem;
+  }
+
+  #contact-description {
+    padding: 0 5rem;
+  }
+
+  #email {
+    padding-bottom: 2rem;
+  }
+
+  #back-to-top-nav-bot {
+    display: none;
+  }
+
+  #student-name-nav-bot, #home-nav-bot, #portfolio-nav-bot, #contact-nav-bot {
+    display: inline;
+  }
+
+  #student-name-nav-bot {
+    padding-right: 15rem;
+  }
+
+  #portfolio-nav-bot, #contact-nav-bot {
+    margin-left: -10px;
+  }
+
+  footer ul {
+    margin-bottom: -10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  html {
+    background-color: WhiteSmoke;
+  }
+
+  h1 {
+    text-align: left;
+    padding-left: 16px;
+    position: static;
+  }
+
+  #intro-p {
+    font-size: larger;
+  }
+
+  header {
+    padding-bottom: 250px;
+  }
+
+  #portfolio-nav-top, #contact-nav-top {
+    margin-left: -10px;
+  }
+
+  header ul {
+    text-align: right;
+    margin-top: -53px;
+    margin-bottom: 5rem;
+    margin-right: -2.5rem;
+  }
+
+  #portfolio-title {
+    padding-bottom: 3rem;
+  }
+
+  .portfolio-piece {
+    width: 32%;
+  }
+
+  #contact-heading, #contact-description, #phone, #email {
+    font-size: larger;
+  }
+
+  #contact-description {
+    padding: 0 10rem 2rem;
+  }
+
+  #student-name-nav-bot {
+    padding-right: 24rem;
+  }
+}
